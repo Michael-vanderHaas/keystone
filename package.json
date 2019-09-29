@@ -1,11 +1,11 @@
 {
-  "name": "@michael-vanderhaas/zomghom-key421",
+  "name": "@michael-vanderhaas/keystone",
   "version": "1.0.0",
   "description": "ZombieGhost port of KeystoneJS v4",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Michael-vanderHaas/zomghom-key421.git"
+    "url": "git+https://github.com/Michael-vanderHaas/keystone.git"
   },
   "dependencies": {
     "@babel/core": "^7.4.4",
