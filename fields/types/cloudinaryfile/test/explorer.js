@@ -1,0 +1,32 @@
+module.exports = {
+	Field: require('../CloudinaryFileField'),
+	Filter: require('../CloudinaryFileFilter'),
+	section: 'Miscellaneous',
+	spec: {
+		label: 'CloudinaryFile',
+		path: 'cloudinaryfile',
+		paths: {
+			action: 'cloudinaryfile_action',
+			exists: 'cloudinaryfile.exists',
+			folder: 'cloudinaryfile.folder',
+			format: 'cloudinaryfile.format',
+			public_id: 'cloudinaryfile.public_id',
+			resource_type: 'cloudinaryfile.resource_type',
+			secure_url: 'cloudinaryfile.secure_url',
+			select: 'cloudinaryfile.select',
+			signature: 'cloudinaryfile.signature',
+			upload: 'cloudinaryfile_upload',
+			url: 'cloudinaryfile.url',
+			version: 'cloudinaryfile.version',
+		},
+		value: {
+			format: null,
+			public_id: null,
+			resource_type: null,
+			secure_url: null,
+			signature: null,
+			url: null,
+			version: null,
+		},
+	},
+};
