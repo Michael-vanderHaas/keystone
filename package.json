@@ -147,22 +147,7 @@
     "underscore": "global:_"
   },
   "browserslist": "> 1%",
-  "author": "Jed Watson",
-  "homepage": "http://keystonejs.com/",
   "license": "MIT",
-  "keywords": [
-    "express",
-    "web",
-    "app",
-    "cms",
-    "admin",
-    "framework",
-    "mongoose",
-    "gui",
-    "site",
-    "website",
-    "forms"
-  ],
   "scripts": {
     "build": "cross-env NODE_ENV=production node build.js | uglifyjs -mc -b beautify=false,semicolons=true > ./admin/public/js/packages.js",
     "build-dev": "node build.js > ./admin/public/js/packages.js",
