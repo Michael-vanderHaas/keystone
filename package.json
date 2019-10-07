@@ -1,6 +1,6 @@
 {
   "name": "@michael-vanderhaas/keystone",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "ZombieGhost port of KeystoneJS v4",
   "main": "index.js",
   "repository": {
