@@ -1,6 +1,6 @@
 {
-  "name": "keystone",
-  "version": "1.0.6",
+  "name": "zombie-ghost-cms",
+  "version": "1.0.7",
   "description": "ZombieGhost port of KeystoneJS v4",
   "main": "index.js",
   "dependencies": {
