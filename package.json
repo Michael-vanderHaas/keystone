@@ -1,12 +1,8 @@
 {
-  "name": "@michael-vanderhaas/keystone",
-  "version": "1.0.5",
+  "name": "keystone",
+  "version": "1.0.6",
   "description": "ZombieGhost port of KeystoneJS v4",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Michael-vanderHaas/keystone.git"
-  },
   "dependencies": {
     "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -175,7 +171,13 @@
     "lib": "lib",
     "test": "test"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-vanderHaas/zomghom-key421.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Michael-vanderHaas/zomghom-key421/issues"
+  },
+  "homepage": "https://github.com/Michael-vanderHaas/zomghom-key421#readme"
 }
