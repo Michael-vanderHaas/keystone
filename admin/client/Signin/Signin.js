@@ -130,7 +130,7 @@ var SigninView = React.createClass({
 				</div>
 				<div className="auth-footer">
 					<span>Powered by </span>
-					<a href="http://keystonejs.com" target="_blank" title="The Node.js CMS and web application platform (new window)">KeystoneJS</a>
+					<a href="https://www.zombieghost.co.nz" target="_blank" title="We like brains">ZombieGhost</a>
 				</div>
 			</div>
 		);

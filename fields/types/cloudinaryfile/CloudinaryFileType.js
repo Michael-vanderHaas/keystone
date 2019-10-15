@@ -397,11 +397,11 @@ cloudinaryfile.prototype.updateItem = function (item, data, files, callback) {
 				filename = sanitize(filename);
 				uploadOptions.public_id = trimSupportedFileExtensions(filename);
 			}
-
-			if(filename.indexOf('.docx') > 1){
+			uploadOptions.public_id = filename.replace(/&/g, 'and');
+			if (filename.indexOf('.docx') > 1) {
 				uploadOptions.resource_type = 'raw';
 				uploadOptions.format = 'docx';
-			} else if(filename.indexOf('.doc') > 1){
+			} else if (filename.indexOf('.doc') > 1) {
 				uploadOptions.resource_type = 'raw';
 				uploadOptions.format = 'doc';
 			}
