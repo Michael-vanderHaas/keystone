@@ -35,6 +35,10 @@ const LoginForm = ({
 				<Button disabled={isAnimating} color="primary" type="submit">
 					Sign In
 				</Button>
+
+				<br />
+				<br />
+				<a href="/reset-password-request">Reset password</a>
 			</Form>
 		</div>
 	);
